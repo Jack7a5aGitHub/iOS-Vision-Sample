@@ -1,6 +1,7 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
-options: "5512c1e8cee3900bcb3ce89c76738c99"
-build_time: [1533895806, 568521000]
+options: "458a660cab2bc303dfab2d79760d08bf"
+build_time: [1534402880, 600449000]
 inputs:
-  "/Users/jackwong/Desktop/Developer/Vision+CIImage/Vision+CIImage/ViewController.swift": [1533895806, 0]
-  "/Users/jackwong/Desktop/Developer/Vision+CIImage/Vision+CIImage/AppDelegate.swift": [1533883932, 0]
+  "/Users/jackwong/iOS-Vision-Sample/Vision+CIImage/Vision+CIImage/Utilities.swift": [1534396266, 0]
+  "/Users/jackwong/iOS-Vision-Sample/Vision+CIImage/Vision+CIImage/ViewController.swift": [1534402880, 0]
+  "/Users/jackwong/iOS-Vision-Sample/Vision+CIImage/Vision+CIImage/AppDelegate.swift": [1533883932, 0]

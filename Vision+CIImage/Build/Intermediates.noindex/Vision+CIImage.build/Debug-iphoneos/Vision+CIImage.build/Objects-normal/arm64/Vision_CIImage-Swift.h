@@ -205,9 +205,19 @@ SWIFT_CLASS("_TtC14Vision_CIImage14ViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified originalPhotoView;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified ciPhotoView;
 - (void)viewDidLoad;
+- (IBAction)getPhoto:(id _Nonnull)sender;
+- (IBAction)recognizePhoto:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+@class UIImagePickerController;
+
+@interface ViewController (SWIFT_EXTENSION(Vision_CIImage)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+@end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

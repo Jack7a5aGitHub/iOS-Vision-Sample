@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "8557495e5309f560735b3da19dd1efc8"
-build_time: [1533976224, 126813000]
+build_time: [1534393963, 516755000]
 inputs:
-  "/Users/jackwong/iOS-Vision-Sample/Vision+CIImage/Vision+CIImage/ViewController.swift": [1533895806, 0]
+  "/Users/jackwong/iOS-Vision-Sample/Vision+CIImage/Vision+CIImage/ViewController.swift": [1534393963, 0]
   "/Users/jackwong/iOS-Vision-Sample/Vision+CIImage/Vision+CIImage/AppDelegate.swift": [1533883932, 0]
